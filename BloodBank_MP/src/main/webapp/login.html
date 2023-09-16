@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="sweetalert.min.js"></script>
+<link rel="stylesheet" href="dist/css/login_style.css">
+</head>
+<body>
+
+
+<fieldset name="loginform">
+	
+	<form action="./LoginPage" method="post">
+
+		<center><h1 style="color:red;font:40px 'Geneva' ;">ELITES BLOODBANK</h1></center>
+	
+  <div class="imgcontainer">
+    <img src="blood_images/blood.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+	  <center>
+    <label for="uname"><b>Username : </b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required><br>
+
+    <label for="psw"><b>Password : </b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+        
+    <button type="submit" value="submit" name="act">Login</button><br>
+    </center>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me<br>
+      <center><a href = "Sign_Up.jsp">Create New Account</a><br></center>
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn" value="cancel" name="act" ><a href="User_Menu.html">Cancel
+    </a></button>
+  </div>
+</form>
+	
+</fieldset>
+
+</body>
+</html>
